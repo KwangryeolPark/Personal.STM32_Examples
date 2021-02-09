@@ -14,7 +14,7 @@ ___
   1. Options -> C/C++ Compiler -> Preprocessor       
 
 
-  ##* startup_stm32f10x_hd_vl.s 파일            
+  ## startup_stm32f10x_hd_vl.s 파일            
     startup_stm32f10x_hd_vl.s은 6장 이후로 필수적으로 필요한 파일입니다.            
     하지만 제가 소유하고 있는 코드가 아니기 때문에 링크를 걸어 두겠습니다.           
 
@@ -25,11 +25,11 @@ ___
     해당 위치에 가서 startup_stm32f10x_hd_vl.s가 있는 위치의 주소를 복사하신 후,            
     Preprocessor에 있는 E:\ARM\res\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar 경로가 있다면, 위에서 복사한 경로로 수정해 주시기를 바랍니다.           
 
-  ##* res -> cortex_m3 파일         
+  ## res -> cortex_m3 파일         
     res 파일 아래 cortex_m3파일은 수많은 레지스터 값들이 저장되어 있는 파일입니다.          
     이또한 경로를 확인하셔서 cortex_m3 파일의 주소를 복사하신 후, Preprocessor란에 E:\ARM\res\cortex_m3 경로가 있다면, 복사한 경로로 수정해 주시기를 바랍니다.             
 
-  ##* res -> stm32 파일            
+  ## res -> stm32 파일            
     res 파일 아래 stm32파일은 수많은 레지스터 값들이 저장되어 있는 파일입니다.          
     이또한 경로를 확인하셔서 stm32 파일의 주소를 복사하신 후, Preprocessor란에 E:\ARM\res\stm32 경로가 있다면, 복사한 경로로 수정해 주시기를 바랍니다.             
 
