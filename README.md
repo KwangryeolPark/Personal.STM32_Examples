@@ -38,4 +38,4 @@ ___
 
 # 강좌 바로 가기       
 ___
-  [stm32 레지스터 직접 접근: https://pkr7098.tistory.com/159
+  stm32 레지스터 직접 접근: https://pkr7098.tistory.com/159
