@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "19",
+      "path": "E:\\ARM\\Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
