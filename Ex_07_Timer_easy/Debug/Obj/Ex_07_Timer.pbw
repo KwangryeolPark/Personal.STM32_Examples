@@ -4679,7 +4679,7 @@
     "location": {
       "column": "6",
       "line": "18",
-      "path": "E:\\ARM\\Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+      "path": "E:\\ARM\\Examples\\Ex_07_Timer\\Ex_07_Timer.c"
     },
     "name": "TIM2_IRQHandler",
     "origin": "project_file",
@@ -4693,21 +4693,21 @@
     "location": {
       "column": "5",
       "line": "23",
-      "path": "E:\\ARM\\Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+      "path": "E:\\ARM\\Examples\\Ex_07_Timer\\Ex_07_Timer.c"
     },
     "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:Ex_07_Timer_easy.c@962@F@main@flag",
+    "ID": "c:Ex_07_Timer.c@960@F@main@flag",
     "What": "Variable",
     "defdec": "Def",
     "display": "flag",
     "location": {
       "column": "11",
       "line": "47",
-      "path": "E:\\ARM\\Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+      "path": "E:\\ARM\\Examples\\Ex_07_Timer\\Ex_07_Timer.c"
     },
     "name": "flag",
     "origin": "project_file",

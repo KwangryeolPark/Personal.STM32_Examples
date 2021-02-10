@@ -652,7 +652,7 @@
                 <option>
                     <name>OOCOutputFormat</name>
                     <version>3</version>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>OCOutputOverride</name>
@@ -660,7 +660,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>Ex_07_Timer_easy.hex</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -668,7 +668,7 @@
                 </option>
                 <option>
                     <name>OOCObjCopyEnable</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -715,7 +715,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>Ex_07_Timer_easy.out</state>
+                    <state>Ex_07_Timer.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -1012,7 +1012,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>Ex_07_Timer_easy_import_lib.o</state>
+                    <state>Ex_07_Timer_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -2129,9 +2129,9 @@
         </file>
     </group>
     <group>
-        <name>Ex_07_Timer_Easy</name>
+        <name>Ex_07_Timer</name>
         <file>
-            <name>$PROJ_DIR$\Ex_07_Timer_easy.c</name>
+            <name>$PROJ_DIR$\..\Ex_07_Timer\Ex_07_Timer.c</name>
         </file>
     </group>
     <group>
@@ -2144,6 +2144,9 @@
         </group>
         <group>
             <name>stm32</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\res\stm32\gpio.h</name>
+            </file>
             <file>
                 <name>$PROJ_DIR$\..\..\res\stm32\rcc.h</name>
             </file>

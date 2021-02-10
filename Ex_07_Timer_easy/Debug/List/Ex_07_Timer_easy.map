@@ -1,0 +1,256 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  11/Feb/2021  01:20:28
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        E:\ARM\Examples\Ex_07_Timer_easy\Debug\Exe\Ex_07_Timer_easy.out
+#    Map file     =
+#        E:\ARM\Examples\Ex_07_Timer_easy\Debug\List\Ex_07_Timer_easy.map
+#    Command line =
+#        -f C:\Users\pkr12\AppData\Local\Temp\EW7280.tmp
+#        (E:\ARM\Examples\Ex_07_Timer_easy\Debug\Obj\Ex_07_Timer_easy.o
+#        E:\ARM\Examples\Ex_07_Timer_easy\Debug\Obj\startup_stm32f10x_hd_vl.o
+#        --no_out_extension -o
+#        E:\ARM\Examples\Ex_07_Timer_easy\Debug\Exe\Ex_07_Timer_easy.out --map
+#        E:\ARM\Examples\Ex_07_Timer_easy\Debug\List\Ex_07_Timer_easy.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\config\linker\ST\stm32f103xE.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 4K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x134
+  .intvec            ro code   0x800'0000   0x134  startup_stm32f10x_hd_vl.o [1]
+                             - 0x800'0134   0x134
+
+"P1":                                       0x2f0
+  .text              ro code   0x800'0134   0x110  Ex_07_Timer_easy.o [1]
+  .text              ro code   0x800'0244    0x2e  copy_init3.o [3]
+  .text              ro code   0x800'0274    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'029c    0x14  - Linker created -
+  .text              ro code   0x800'02b0    0x1e  cmain.o [3]
+  .text              ro code   0x800'02ce     0x4  low_level_init.o [2]
+  .text              ro code   0x800'02d2     0x4  exit.o [2]
+  .text              ro code   0x800'02d8     0xa  cexit.o [3]
+  .text              ro code   0x800'02e4    0x14  exit.o [4]
+  .text              ro code   0x800'02f8    0x1c  cstartup_M.o [3]
+  Initializer bytes  const     0x800'0314    0x10  <for P2-1>
+  .text              ro code   0x800'0324     0x8  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'032c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0330     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0334     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0338     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'033c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0340     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0344     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0348     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'034c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0350     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0354     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0358     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'035c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0360     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0364     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0368     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'036c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0370     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0374     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0378     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'037c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0380     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0384     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0388     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'038c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0390     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0394     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0398     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'039c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03a0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03a4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03a8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03ac     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03b0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03b4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03b8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03bc     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03c0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03c4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03c8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03cc     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03d0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03d4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03d8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03dc     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03e0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03e4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03e8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03ec     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03f0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03f4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03f8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'03fc     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0400     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0404     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0408     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'040c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0410     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0414     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0418     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'041c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text              ro code   0x800'0420     0x4  startup_stm32f10x_hd_vl.o [1]
+  .rodata            const     0x800'0424     0x0  copy_init3.o [3]
+                             - 0x800'0424   0x2f0
+
+"P2", part 1 of 2:                           0x10
+  P2-1                        0x2000'0000    0x10  <Init block>
+    .data            inited   0x2000'0000     0x4  Ex_07_Timer_easy.o [1]
+    .data            inited   0x2000'0004     0x4  Ex_07_Timer_easy.o [1]
+    .data            inited   0x2000'0008     0x4  Ex_07_Timer_easy.o [1]
+    .data            inited   0x2000'000c     0x4  Ex_07_Timer_easy.o [1]
+                            - 0x2000'0010    0x10
+
+"P2", part 2 of 2:                         0x1000
+  CSTACK                      0x2000'0010  0x1000  <Block>
+    CSTACK           uninit   0x2000'0010  0x1000  <Block tail>
+                            - 0x2000'1010  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0424   0x807'ffff  0x7'fbdc
+  0x2000'1010  0x2000'ffff    0xeff0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0x800'0314  0x10
+    1 destination range, total size 0x10:
+          0x2000'0000  0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+command line/config:
+    ----------------------------------------------------
+    Total:
+
+E:\ARM\Examples\Ex_07_Timer_easy\Debug\Obj: [1]
+    Ex_07_Timer_easy.o             272       16       16
+    startup_stm32f10x_hd_vl.o      564
+    ----------------------------------------------------
+    Total:                         836       16       16
+
+dl7M_tln.a: [2]
+    exit.o                           4
+    low_level_init.o                 4
+    ----------------------------------------------------
+    Total:                           8
+
+rt7M_tl.a: [3]
+    cexit.o                         10
+    cmain.o                         30
+    copy_init3.o                    46
+    cstartup_M.o                    28
+    data_init.o                     40
+    ----------------------------------------------------
+    Total:                         154
+
+shb_l.a: [4]
+    exit.o                          20
+    ----------------------------------------------------
+    Total:                          20
+
+    Gaps                             6
+    Linker created                           20    4'096
+--------------------------------------------------------
+    Grand Total:                 1'024       36    4'112
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'029c         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'02b0         --   Gb  - Linker created -
+?main                    0x800'02b1        Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0010         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1010         --   Gb  - Linker created -
+GPIOF                   0x2000'0000   0x4  Data  Gb  Ex_07_Timer_easy.o [1]
+GPIOG                   0x2000'0004   0x4  Data  Gb  Ex_07_Timer_easy.o [1]
+RCC                     0x2000'0008   0x4  Data  Gb  Ex_07_Timer_easy.o [1]
+Region$$Table$$Base      0x800'029c         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'02b0         --   Gb  - Linker created -
+TIM2                    0x2000'000c   0x4  Data  Gb  Ex_07_Timer_easy.o [1]
+TIM2_IRQHandler          0x800'0135  0x18  Code  Gb  Ex_07_Timer_easy.o [1]
+__cmain                  0x800'02b1        Code  Gb  cmain.o [3]
+__exit                   0x800'02e5  0x14  Code  Gb  exit.o [4]
+__iar_copy_init3         0x800'0245  0x2e  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'0275  0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'02f9        Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'02cf   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  startup_stm32f10x_hd_vl.o [1]
+_call_main               0x800'02bd        Code  Gb  cmain.o [3]
+_exit                    0x800'02d9        Code  Gb  cexit.o [3]
+_main                    0x800'02c7        Code  Gb  cmain.o [3]
+exit                     0x800'02d3   0x4  Code  Gb  exit.o [2]
+main                     0x800'014d  0xda  Code  Gb  Ex_07_Timer_easy.o [1]
+
+
+[1] = E:\ARM\Examples\Ex_07_Timer_easy\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  1'024 bytes of readonly  code memory
+     36 bytes of readonly  data memory
+  4'112 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

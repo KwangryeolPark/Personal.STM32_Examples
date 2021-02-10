@@ -1,4 +1,4 @@
-#Generating source browse information for project Ex_07_Timer_easy
+#Generating source browse information for project Ex_07_Timer
 
 
 #Abbreviations
@@ -20,8 +20,8 @@ rule browsedata
 
 
 #Build steps
-build Ex_07_Timer_easy.pbi : index Ex_07_Timer_easy.xcl
-build Ex_07_Timer_easy.pbd : link Ex_07_Timer_easy.pbi
-build Ex_07_Timer_easy.pbw : browsedata Ex_07_Timer_easy.pbd
+build Ex_07_Timer.pbi : index Ex_07_Timer.xcl
+build Ex_07_Timer.pbd : link Ex_07_Timer.pbi
+build Ex_07_Timer.pbw : browsedata Ex_07_Timer.pbd
 
 
