@@ -4672,6 +4672,20 @@
     "scope": null
   },
   {
+    "ID": "c:inc.h@24@macro@_INC_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_INC_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\inc.h"
+    },
+    "name": "_INC_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@TIM2_IRQHandler",
     "What": "Function",
     "defdec": "Def",
@@ -4696,20 +4710,6 @@
       "path": "E:\\ARM\\Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
     },
     "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:Ex_07_Timer_easy.c@962@F@main@flag",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "flag",
-    "location": {
-      "column": "11",
-      "line": "47",
-      "path": "E:\\ARM\\Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
-    },
-    "name": "flag",
     "origin": "project_file",
     "scope": null
   },
@@ -4852,20 +4852,6 @@
       "path": "E:\\ARM\\res\\stm32\\afio.h"
     },
     "name": "AFIO",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:inc.h@24@macro@_INC_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_INC_H",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "E:\\ARM\\res\\inc.h"
-    },
-    "name": "_INC_H",
     "origin": "user_include",
     "scope": null
   }
