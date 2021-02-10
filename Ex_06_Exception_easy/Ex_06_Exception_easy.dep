@@ -5,37 +5,37 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\..\..\res\inc.h</file>
             <file>$PROJ_DIR$\..\..\res\stm32\adc.h</file>
-            <file>$PROJ_DIR$\..\..\res\stm32\rcc.h</file>
+            <file>$PROJ_DIR$\..\..\res\typedef.h</file>
+            <file>$PROJ_DIR$\..\..\res\cortex_m3\nvic.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_06_Exception_easy.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\res\stm32\afio.h</file>
             <file>$PROJ_DIR$\..\..\res\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_hd_vl.s</file>
+            <file>$PROJ_DIR$\..\..\res\stm32\exti.h</file>
+            <file>$PROJ_DIR$\..\..\res\stm32\gpio.h</file>
+            <file>$PROJ_DIR$\..\..\res\stm32\rcc.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103xE.icf</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_hd_vl.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_06_Exception_easy.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\res\stm32\tim.h</file>
             <file>$PROJ_DIR$\Debug\Exe\Ex_06_Exception_easy.out</file>
             <file>$PROJ_DIR$\Ex_06_Exception_easy.c</file>
-            <file>$PROJ_DIR$\..\..\res\stm32\gpio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_hd_vl.o</file>
-            <file>$PROJ_DIR$\..\..\res\cortex_m3\nvic.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\res\typedef.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_06_Exception_easy.xcl</file>
-            <file>$PROJ_DIR$\..\..\res\stm32\exti.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_06_Exception_easy.o</file>
-            <file>$PROJ_DIR$\..\..\res\stm32\afio.h</file>
-            <file>$PROJ_DIR$\..\..\res\stm32\tim.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\Ex_06_Exception_easy.hex</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_06_Exception_easy.pbd</file>
+            <file>$PROJ_DIR$\..\..\res\inc.h</file>
             <file>$PROJ_DIR$\Debug\List\Ex_06_Exception_easy.map</file>
-            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103xE.icf</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_06_Exception_easy.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_06_Exception_easy.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_06_Exception_easy.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\Ex_06_Exception_easy.hex</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 4 18</file>
+                    <file> 17 20</file>
                 </tool>
             </outputs>
         </file>
@@ -44,7 +44,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 7</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
         </file>
@@ -53,17 +53,17 @@
             <outputs>
                 <tool>
                     <name>OBJCOPY</name>
-                    <file> 16</file>
+                    <file> 23</file>
                 </tool>
                 <tool>
                     <name>ILINK</name>
-                    <file> 18</file>
+                    <file> 20</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 19 13 7 22 20 9 21</file>
+                    <file> 9 22 11 12 15 10 13</file>
                 </tool>
             </inputs>
         </file>
@@ -72,21 +72,21 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 13</file>
+                    <file> 22</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 23</file>
+                    <file> 3</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 14</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0 1 10 14 12 6 8 2 15</file>
+                    <file> 19 0 1 4 6 7 2 8 16</file>
                 </tool>
             </inputs>
         </file>
