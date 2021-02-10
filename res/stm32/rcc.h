@@ -39,4 +39,26 @@ volatile struct _RCC *RCC = (struct _RCC*) 0x40021000;
 #define IOPAEN  2
 #define AFIOEN  0
 
+#define MCO     24
+#define USBPRE  22
+#define PLLMUL  18
+#define PLLXTPRE        17
+#define PLLSRC  16
+#define ADCPRE  14
+#define PPRE2   11
+#define PPRE1   8
+#define HPRE    4
+#define SWS     2
+#define SW      0
+
+#define PLLRDY  25
+#define PLLON   24
+#define CSSON   19
+#define HSEBYP  18
+#define HSERDY  17
+#define HSEON   16
+#define HSICAL  8
+#define HSITRIM 3
+#define HSIRDY  1
+#define HSION   0
 #endif
