@@ -8,6 +8,8 @@
 #include "nvic.h"
 #include "rcc.h"
 #include "tim.h"
+#include "usart.h"
+#include "printf.c"
 #include "typedef.h"
 
 #endif
