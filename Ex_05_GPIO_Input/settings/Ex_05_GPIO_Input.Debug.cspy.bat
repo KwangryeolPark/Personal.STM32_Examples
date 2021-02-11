@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.general.xcl" --backend -f "E:\ARM\Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\STM32_Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.general.xcl" --backend -f "E:\ARM\STM32_Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\ARM\Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\STM32_Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\ARM\STM32_Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.driver.xcl" 
 
 @echo off 
 :end

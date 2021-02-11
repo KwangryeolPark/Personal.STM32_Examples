@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.general.xcl" --backend -f "E:\ARM\Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\STM32_Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.general.xcl" --backend -f "E:\ARM\STM32_Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\ARM\Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\STM32_Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\ARM\STM32_Examples\Ex_05_GPIO_Input\settings\Ex_05_GPIO_Input.Debug.driver.xcl" 
 }

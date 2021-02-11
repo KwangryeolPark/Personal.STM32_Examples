@@ -1,19 +1,5 @@
 [
   {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int main(void)",
-    "location": {
-      "column": "5",
-      "line": "20",
-      "path": "E:\\ARM\\Examples\\Ex_05_GPIO_Output\\Ex_05_GPIO_Output.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:gpio.h@25@macro@_GPIO_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -1124,6 +1110,622 @@
     "scope": null
   },
   {
+    "ID": "c:rcc.h@860@macro@MCO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MCO",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "MCO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@880@macro@USBPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBPRE",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USBPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@900@macro@PLLMUL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLMUL",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLMUL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@920@macro@PLLXTPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLXTPRE",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLXTPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@948@macro@PLLSRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLSRC",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLSRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@968@macro@ADCPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADCPRE",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "ADCPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@988@macro@PPRE2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PPRE2",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PPRE2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1008@macro@PPRE1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PPRE1",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PPRE1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1027@macro@HPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HPRE",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1046@macro@SWS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SWS",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SWS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1065@macro@SW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SW",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SW",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1086@macro@PLLRDY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLRDY",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLRDY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1106@macro@PLLON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLON",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1126@macro@CSSON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CSSON",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "CSSON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1146@macro@HSEBYP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSEBYP",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSEBYP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1166@macro@HSERDY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSERDY",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSERDY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1186@macro@HSEON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSEON",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSEON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1206@macro@HSICAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSICAL",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSICAL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1225@macro@HSITRIM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSITRIM",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSITRIM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1244@macro@HSIRDY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSIRDY",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSIRDY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1263@macro@HSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSION",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1284@macro@DACEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DACEN",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "DACEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1304@macro@PWREN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PWREN",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PWREN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1324@macro@BKPEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BKPEN",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "BKPEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1344@macro@CANEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CANEN",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "CANEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1364@macro@USBEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBEN",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USBEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1384@macro@I2C2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C2EN",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "I2C2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1404@macro@I2C1EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C1EN",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "I2C1EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1424@macro@UART5EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART5EN",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "UART5EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1444@macro@UART4EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART4EN",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "UART4EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1464@macro@USART3EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USART3EN",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USART3EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1492@macro@USART2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USART2EN",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USART2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1520@macro@SPI3EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI3EN",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SPI3EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1540@macro@SPI2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI2EN",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SPI2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1560@macro@WWDGEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WWDGEN",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "WWDGEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1580@macro@TIM14EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM14EN",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM14EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1599@macro@TIM13EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM13EN",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM13EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1618@macro@TIM12EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM12EN",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM12EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1637@macro@TIM7EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM7EN",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM7EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1655@macro@TIM6EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM6EN",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM6EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1673@macro@TIM5EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM5EN",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM5EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1691@macro@TIM4EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM4EN",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM4EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1709@macro@TIM3EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM3EN",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM3EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1727@macro@TIM2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM2EN",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:typedef.h@28@macro@_TYPEDEF_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -1275,6 +1877,20 @@
     },
     "name": "false",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "20",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_05_GPIO_Output\\Ex_05_GPIO_Output.c"
+    },
+    "name": "main",
+    "origin": "project_file",
     "scope": null
   }
 ]

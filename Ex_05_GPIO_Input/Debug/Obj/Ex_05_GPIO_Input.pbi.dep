@@ -1,3 +1,3 @@
 Ex_05_GPIO_Input.pbi: E:\ARM\res\stm32\rcc.h E:\ARM\res\typedef.h \
   E:\ARM\res\stm32\gpio.h \
-  E:\ARM\Examples\Ex_05_GPIO_Input\Ex_05_GPIO_Input.c
+  E:\ARM\STM32_Examples\Ex_05_GPIO_Input\Ex_05_GPIO_Input.c

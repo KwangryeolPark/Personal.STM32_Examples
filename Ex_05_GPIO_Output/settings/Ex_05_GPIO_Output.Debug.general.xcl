@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armstlink2.dll" 
 
-"E:\ARM\Examples\Ex_05_GPIO_Output\Debug\Exe\Ex_05_GPIO_Output.out" 
+"E:\ARM\STM32_Examples\Ex_05_GPIO_Output\Debug\Exe\Ex_05_GPIO_Output.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
 

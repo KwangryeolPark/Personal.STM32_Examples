@@ -5,29 +5,29 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Ex_05_GPIO_Output.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output.__cstat.et</file>
             <file>$PROJ_DIR$\..\..\res\stm32\gpio.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output.out</file>
-            <file>$PROJ_DIR$\..\..\res\typedef.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output.o</file>
             <file>$PROJ_DIR$\..\..\res\stm32\rcc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output.pbd</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103xE.icf</file>
-            <file>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output.hex</file>
+            <file>$PROJ_DIR$\..\..\res\typedef.h</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
             <file>$PROJ_DIR$\Debug\List\Ex_05_GPIO_Output.map</file>
+            <file>$PROJ_DIR$\Ex_05_GPIO_Output.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output.out</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 15 2</file>
+                    <file> 10 15</file>
                 </tool>
             </outputs>
         </file>
@@ -36,21 +36,21 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 4</file>
+                    <file> 8</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 6</file>
+                    <file> 12</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 13</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1 3 5</file>
+                    <file> 1 5 2</file>
                 </tool>
             </inputs>
         </file>
@@ -58,18 +58,18 @@
             <name>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output.out</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 15</file>
+                    <name>OBJCOPY</name>
+                    <file> 13</file>
                 </tool>
                 <tool>
-                    <name>OBJCOPY</name>
+                    <name>ILINK</name>
                     <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 9 4 8 14 12 11</file>
+                    <file> 4 8 3 7 9 6</file>
                 </tool>
             </inputs>
         </file>

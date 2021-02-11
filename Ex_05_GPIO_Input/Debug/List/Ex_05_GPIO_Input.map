@@ -1,18 +1,19 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.50.9.278/W32 for ARM                  09/Feb/2021  21:24:15
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  12/Feb/2021  00:31:53
 # Copyright 2007-2020 IAR Systems AB.
 #
 #    Output file  =
-#        E:\ARM\Examples\Ex_05_GPIO_Input\Debug\Exe\Ex_05_GPIO_Input.out
+#        E:\ARM\STM32_Examples\Ex_05_GPIO_Input\Debug\Exe\Ex_05_GPIO_Input.out
 #    Map file     =
-#        E:\ARM\Examples\Ex_05_GPIO_Input\Debug\List\Ex_05_GPIO_Input.map
+#        E:\ARM\STM32_Examples\Ex_05_GPIO_Input\Debug\List\Ex_05_GPIO_Input.map
 #    Command line =
-#        -f C:\Users\pkr12\AppData\Local\Temp\EWD275.tmp
-#        (E:\ARM\Examples\Ex_05_GPIO_Input\Debug\Obj\Ex_05_GPIO_Input.o
+#        -f C:\Users\pkr12\AppData\Local\Temp\EW5240.tmp
+#        (E:\ARM\STM32_Examples\Ex_05_GPIO_Input\Debug\Obj\Ex_05_GPIO_Input.o
 #        --no_out_extension -o
-#        E:\ARM\Examples\Ex_05_GPIO_Input\Debug\Exe\Ex_05_GPIO_Input.out --map
-#        E:\ARM\Examples\Ex_05_GPIO_Input\Debug\List\Ex_05_GPIO_Input.map
+#        E:\ARM\STM32_Examples\Ex_05_GPIO_Input\Debug\Exe\Ex_05_GPIO_Input.out
+#        --map
+#        E:\ARM\STM32_Examples\Ex_05_GPIO_Input\Debug\List\Ex_05_GPIO_Input.map
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.4\arm\config\linker\ST\stm32f103xE.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
@@ -116,7 +117,7 @@ command line/config:
     ---------------------------------------------
     Total:
 
-E:\ARM\Examples\Ex_05_GPIO_Input\Debug\Obj: [1]
+E:\ARM\STM32_Examples\Ex_05_GPIO_Input\Debug\Obj: [1]
     Ex_05_GPIO_Input.o       80       12       12
     ---------------------------------------------
     Total:                   80       12       12
@@ -178,7 +179,7 @@ exit                     0x800'011f   0x4  Code  Gb  exit.o [2]
 main                     0x800'0041  0x50  Code  Gb  Ex_05_GPIO_Input.o [1]
 
 
-[1] = E:\ARM\Examples\Ex_05_GPIO_Input\Debug\Obj
+[1] = E:\ARM\STM32_Examples\Ex_05_GPIO_Input\Debug\Obj
 [2] = dl7M_tln.a
 [3] = rt7M_tl.a
 [4] = shb_l.a
