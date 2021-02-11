@@ -1,19 +1,20 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.50.9.278/W32 for ARM                  09/Feb/2021  20:50:07
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  12/Feb/2021  00:33:58
 # Copyright 2007-2020 IAR Systems AB.
 #
 #    Output file  =
-#        E:\ARM\Examples\Ex_06_Exception\Debug\Exe\Ex_06_Exception.out
+#        E:\ARM\STM32_Examples\Ex_06_Exception\Debug\Exe\Ex_06_Exception.out
 #    Map file     =
-#        E:\ARM\Examples\Ex_06_Exception\Debug\List\Ex_06_Exception.map
+#        E:\ARM\STM32_Examples\Ex_06_Exception\Debug\List\Ex_06_Exception.map
 #    Command line =
-#        -f C:\Users\pkr12\AppData\Local\Temp\EW9079.tmp
-#        (E:\ARM\Examples\Ex_06_Exception\Debug\Obj\Ex_06_Exception.o
-#        E:\ARM\Examples\Ex_06_Exception\Debug\Obj\startup_stm32f10x_hd_vl.o
+#        -f C:\Users\pkr12\AppData\Local\Temp\EW3AC6.tmp
+#        (E:\ARM\STM32_Examples\Ex_06_Exception\Debug\Obj\Ex_06_Exception.o
+#        E:\ARM\STM32_Examples\Ex_06_Exception\Debug\Obj\startup_stm32f10x_hd_vl.o
 #        --no_out_extension -o
-#        E:\ARM\Examples\Ex_06_Exception\Debug\Exe\Ex_06_Exception.out --map
-#        E:\ARM\Examples\Ex_06_Exception\Debug\List\Ex_06_Exception.map
+#        E:\ARM\STM32_Examples\Ex_06_Exception\Debug\Exe\Ex_06_Exception.out
+#        --map
+#        E:\ARM\STM32_Examples\Ex_06_Exception\Debug\List\Ex_06_Exception.map
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.4\arm\config\linker\ST\stm32f103xE.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
@@ -181,7 +182,7 @@ command line/config:
     ----------------------------------------------------
     Total:
 
-E:\ARM\Examples\Ex_06_Exception\Debug\Obj: [1]
+E:\ARM\STM32_Examples\Ex_06_Exception\Debug\Obj: [1]
     Ex_06_Exception.o              204       24       24
     startup_stm32f10x_hd_vl.o      564
     ----------------------------------------------------
@@ -248,7 +249,7 @@ exit                     0x800'028f   0x4  Code  Gb  exit.o [2]
 main                     0x800'0181  0x5e  Code  Gb  Ex_06_Exception.o [1]
 
 
-[1] = E:\ARM\Examples\Ex_06_Exception\Debug\Obj
+[1] = E:\ARM\STM32_Examples\Ex_06_Exception\Debug\Obj
 [2] = dl7M_tln.a
 [3] = rt7M_tl.a
 [4] = shb_l.a

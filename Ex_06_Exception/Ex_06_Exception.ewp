@@ -345,11 +345,11 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>E:\ARM\res\CMSIS\CM3\DeviceSupport\ST\STM32F10x</state>
                     <state>E:\ARM\res\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar</state>
                     <state>E:\ARM\res\stm32</state>
                     <state>E:\ARM\res\cortex_m3</state>
                     <state>E:\ARM\res</state>
+                    <state>E:\ARM\res\stdio</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>

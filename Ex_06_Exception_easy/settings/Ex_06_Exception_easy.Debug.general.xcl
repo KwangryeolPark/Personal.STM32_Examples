@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armstlink2.dll" 
 
-"E:\ARM\Examples\Ex_06_Exception_easy\Debug\Exe\Ex_06_Exception_easy.out" 
+"E:\ARM\STM32_Examples\Ex_06_Exception_easy\Debug\Exe\Ex_06_Exception_easy.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
 

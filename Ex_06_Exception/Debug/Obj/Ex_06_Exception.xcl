@@ -1,17 +1,15 @@
-"E:\ARM\Examples\Ex_06_Exception\Ex_06_Exception.c"
+"E:\ARM\STM32_Examples\Ex_06_Exception\Ex_06_Exception.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-E:\ARM\Examples\Ex_06_Exception\Debug\Obj\Ex_06_Exception.pbi.dep
+E:\ARM\STM32_Examples\Ex_06_Exception\Debug\Obj\Ex_06_Exception.pbi.dep
 -o
 Ex_06_Exception.pbi
 -I
-E:\ARM\Examples\Ex_06_Exception
--I
-E:\ARM\res\CMSIS\CM3\DeviceSupport\ST\STM32F10x\
+E:\ARM\STM32_Examples\Ex_06_Exception
 -I
 E:\ARM\res\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\
 -I
@@ -21,11 +19,11 @@ E:\ARM\res\cortex_m3\
 -I
 E:\ARM\res\
 -I
+E:\ARM\res\stdio\
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
--I
-E:\ARM\res\CMSIS\CM3\DeviceSupport\ST\STM32F10x
 -I
 E:\ARM\res\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
 -I
@@ -34,6 +32,8 @@ E:\ARM\res\stm32
 E:\ARM\res\cortex_m3
 -I
 E:\ARM\res
+-I
+E:\ARM\res\stdio
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
