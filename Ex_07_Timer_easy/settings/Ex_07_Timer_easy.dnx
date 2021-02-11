@@ -131,8 +131,9 @@
         <Category>_ 0</Category>
     </LogFile>
     <Aliases>
-        <Count>0</Count>
-        <SuppressDialog>0</SuppressDialog>
+        <A0>_ "E:\ARM\Examples\Ex_07_Timer_easy\Ex_07_Timer_easy.c" "E:\ARM\STM32_Examples\Ex_07_Timer_easy\Ex_07_Timer_easy.c"</A0>
+        <Count>1</Count>
+        <SuppressDialog>1</SuppressDialog>
     </Aliases>
     <DriverProfiling>
         <Enabled>0</Enabled>
