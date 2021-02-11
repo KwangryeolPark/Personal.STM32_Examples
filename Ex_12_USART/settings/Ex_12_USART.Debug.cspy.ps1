@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\Examples\Ex_12_USART\settings\Ex_12_USART.Debug.general.xcl" --backend -f "E:\ARM\Examples\Ex_12_USART\settings\Ex_12_USART.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\STM32_Examples\Ex_12_USART\settings\Ex_12_USART.Debug.general.xcl" --backend -f "E:\ARM\STM32_Examples\Ex_12_USART\settings\Ex_12_USART.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\Examples\Ex_12_USART\settings\Ex_12_USART.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\ARM\Examples\Ex_12_USART\settings\Ex_12_USART.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "E:\ARM\STM32_Examples\Ex_12_USART\settings\Ex_12_USART.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\ARM\STM32_Examples\Ex_12_USART\settings\Ex_12_USART.Debug.driver.xcl" 
 }

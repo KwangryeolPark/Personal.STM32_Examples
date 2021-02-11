@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armstlink2.dll" 
 
-"E:\ARM\Examples\Ex_12_USART\Debug\Exe\Ex_12_USART.out" 
+"E:\ARM\STM32_Examples\Ex_12_USART\Debug\Exe\Ex_12_USART.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
 

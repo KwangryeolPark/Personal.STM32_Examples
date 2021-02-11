@@ -4206,160 +4206,6 @@
     "scope": null
   },
   {
-    "ID": "c:typedef.h@28@macro@_TYPEDEF_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_TYPEDEF_H",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "_TYPEDEF_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@T@uint8_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned char",
-    "location": {
-      "column": "33",
-      "line": "4",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "uint8_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@T@uint16_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned short",
-    "location": {
-      "column": "33",
-      "line": "5",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "uint16_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@T@uint32_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned long",
-    "location": {
-      "column": "33",
-      "line": "6",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "uint32_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@T@uint64_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned long long",
-    "location": {
-      "column": "33",
-      "line": "7",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "uint64_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@T@int8_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "char",
-    "location": {
-      "column": "33",
-      "line": "9",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "int8_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@T@int16_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "short",
-    "location": {
-      "column": "33",
-      "line": "10",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "int16_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@T@int32_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "int",
-    "location": {
-      "column": "33",
-      "line": "11",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "int32_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@T@int64_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "long long",
-    "location": {
-      "column": "33",
-      "line": "12",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "int64_t",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@392@macro@true",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "true",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "true",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:typedef.h@411@macro@false",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "false",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "E:\\ARM\\res\\typedef.h"
-    },
-    "name": "false",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:tim.h@24@macro@_TIM_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -4862,6 +4708,160 @@
       "path": "E:\\ARM\\res\\stm32\\tim.h"
     },
     "name": "TIM14",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@28@macro@_TYPEDEF_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TYPEDEF_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "_TYPEDEF_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@uint8_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "33",
+      "line": "4",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "uint8_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@uint16_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned short",
+    "location": {
+      "column": "33",
+      "line": "5",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "uint16_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@uint32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long",
+    "location": {
+      "column": "33",
+      "line": "6",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "uint32_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@uint64_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long long",
+    "location": {
+      "column": "33",
+      "line": "7",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "uint64_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@int8_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "char",
+    "location": {
+      "column": "33",
+      "line": "9",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "int8_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@int16_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "short",
+    "location": {
+      "column": "33",
+      "line": "10",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "int16_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@int32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int",
+    "location": {
+      "column": "33",
+      "line": "11",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "int32_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@int64_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "long long",
+    "location": {
+      "column": "33",
+      "line": "12",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "int64_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@392@macro@true",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "true",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "true",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@411@macro@false",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "false",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "false",
     "origin": "user_include",
     "scope": null
   },
@@ -6027,7 +6027,7 @@
     "location": {
       "column": "5",
       "line": "18",
-      "path": "E:\\ARM\\Examples\\Ex_12_USART\\Ex_12_USART.c"
+      "path": "E:\\ARM\\STM32_Examples\\Ex_12_USART\\Ex_12_USART.c"
     },
     "name": "main",
     "origin": "project_file",
@@ -6041,7 +6041,7 @@
     "location": {
       "column": "9",
       "line": "32",
-      "path": "E:\\ARM\\Examples\\Ex_12_USART\\Ex_12_USART.c"
+      "path": "E:\\ARM\\STM32_Examples\\Ex_12_USART\\Ex_12_USART.c"
     },
     "name": "helloWorld",
     "origin": "project_file",
@@ -6055,7 +6055,7 @@
     "location": {
       "column": "13",
       "line": "34",
-      "path": "E:\\ARM\\Examples\\Ex_12_USART\\Ex_12_USART.c"
+      "path": "E:\\ARM\\STM32_Examples\\Ex_12_USART\\Ex_12_USART.c"
     },
     "name": "i",
     "origin": "project_file",
