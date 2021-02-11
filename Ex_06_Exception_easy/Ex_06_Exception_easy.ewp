@@ -2156,6 +2156,12 @@
             <file>
                 <name>$PROJ_DIR$\..\..\res\stm32\rcc.h</name>
             </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\res\stm32\usart.h</name>
+            </file>
         </group>
+        <file>
+            <name>$PROJ_DIR$\..\..\res\inc.h</name>
+        </file>
     </group>
 </project>

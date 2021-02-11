@@ -4854,5 +4854,203 @@
     "name": "main",
     "origin": "project_file",
     "scope": null
+  },
+  {
+    "ID": "c:usart.h@26@macro@_USART_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_USART_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "_USART_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@_USART",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "_USART",
+    "location": {
+      "column": "8",
+      "line": "4",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_USART@FI@SR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SR",
+        "location": {
+          "column": "12",
+          "line": "5",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "SR",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@DR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DR",
+        "location": {
+          "column": "12",
+          "line": "6",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "DR",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@BRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BRR",
+        "location": {
+          "column": "12",
+          "line": "7",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "BRR",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR1",
+        "location": {
+          "column": "12",
+          "line": "8",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "CR1",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR2",
+        "location": {
+          "column": "12",
+          "line": "9",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "CR2",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@CR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR3",
+        "location": {
+          "column": "12",
+          "line": "10",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "CR3",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@GTPR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GTPR",
+        "location": {
+          "column": "12",
+          "line": "11",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "GTPR",
+        "origin": "user_include",
+        "scope": "_USART"
+      }
+    ],
+    "name": "_USART",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@USART1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "USART1",
+    "location": {
+      "column": "25",
+      "line": "14",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "USART1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@USART2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "USART2",
+    "location": {
+      "column": "25",
+      "line": "15",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "USART2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@USART3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "USART3",
+    "location": {
+      "column": "25",
+      "line": "16",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "USART3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UART4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UART4",
+    "location": {
+      "column": "25",
+      "line": "17",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "UART4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UART5",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UART5",
+    "location": {
+      "column": "25",
+      "line": "18",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "UART5",
+    "origin": "user_include",
+    "scope": null
   }
 ]
