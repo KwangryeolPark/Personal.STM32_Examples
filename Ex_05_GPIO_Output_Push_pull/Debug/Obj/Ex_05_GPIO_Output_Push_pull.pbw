@@ -1880,16 +1880,44 @@
     "scope": null
   },
   {
+    "ID": "c:@F@Delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Delay(unsigned long)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_05_GPIO_Output_Push_pull\\Ex_05_GPIO_Output_Push_pull.c"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "24",
+      "line": "28",
       "path": "E:\\ARM\\STM32_Examples\\Ex_05_GPIO_Output_Push_pull\\Ex_05_GPIO_Output_Push_pull.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Delay(unsigned long)",
+    "location": {
+      "column": "6",
+      "line": "45",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_05_GPIO_Output_Push_pull\\Ex_05_GPIO_Output_Push_pull.c"
+    },
+    "name": "Delay",
     "origin": "project_file",
     "scope": null
   }

@@ -1,2 +1,3 @@
 Ex_05_GPIO_Output_Push_pull.pbi: \
-  E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Push_pull\Ex_05_GPIO_Output_Push_pull.c
+  E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Push_pull\Ex_05_GPIO_Output_Push_pull.c \
+  E:\ARM\res\stm32\gpio.h E:\ARM\res\typedef.h E:\ARM\res\stm32\rcc.h
