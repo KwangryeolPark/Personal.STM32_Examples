@@ -1,0 +1,190 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  12/Feb/2021  19:00:11
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Open_drain\Debug\Exe\Ex_05_GPIO_Output_Open_drain.out
+#    Map file     =
+#        E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Open_drain\Debug\List\Ex_05_GPIO_Output_Open_drain.map
+#    Command line =
+#        -f C:\Users\pkr12\AppData\Local\Temp\EWF88C.tmp
+#        (E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Open_drain\Debug\Obj\Ex_05_GPIO_Output_Open_drain.o
+#        --no_out_extension -o
+#        E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Open_drain\Debug\Exe\Ex_05_GPIO_Output_Open_drain.out
+#        --map
+#        E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Open_drain\Debug\List\Ex_05_GPIO_Output_Open_drain.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\config\linker\ST\stm32f103xE.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 4K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x40
+  .intvec            ro code   0x800'0000    0x40  vector_table_M.o [3]
+                             - 0x800'0040    0x40
+
+"P1":                                       0x11c
+  .text              ro code   0x800'0040    0x46  Ex_05_GPIO_Output_Open_drain.o [1]
+  .text              ro code   0x800'0086    0x2e  copy_init3.o [3]
+  .text              ro code   0x800'00b4    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'00dc    0x14  - Linker created -
+  .text              ro code   0x800'00f0    0x1e  cmain.o [3]
+  .text              ro code   0x800'010e     0x4  low_level_init.o [2]
+  .text              ro code   0x800'0112     0x4  exit.o [2]
+  .text              ro code   0x800'0116     0x2  vector_table_M.o [3]
+  .text              ro code   0x800'0118     0xa  cexit.o [3]
+  .text              ro code   0x800'0124    0x14  exit.o [4]
+  .text              ro code   0x800'0138    0x1c  cstartup_M.o [3]
+  Initializer bytes  const     0x800'0154     0x8  <for P2-1>
+  .rodata            const     0x800'015c     0x0  copy_init3.o [3]
+                             - 0x800'015c   0x11c
+
+"P2", part 1 of 2:                            0x8
+  P2-1                        0x2000'0000     0x8  <Init block>
+    .data            inited   0x2000'0000     0x4  Ex_05_GPIO_Output_Open_drain.o [1]
+    .data            inited   0x2000'0004     0x4  Ex_05_GPIO_Output_Open_drain.o [1]
+                            - 0x2000'0008     0x8
+
+"P2", part 2 of 2:                         0x1000
+  CSTACK                      0x2000'0008  0x1000  <Block>
+    CSTACK           uninit   0x2000'0008  0x1000  <Block tail>
+                            - 0x2000'1008  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'015c   0x807'ffff  0x7'fea4
+  0x2000'1008  0x2000'ffff    0xeff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x8:
+           0x800'0154   0x8
+    1 destination range, total size 0x8:
+          0x2000'0000   0x8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                          ro code  ro data  rw data
+    ------                          -------  -------  -------
+command line/config:
+    ---------------------------------------------------------
+    Total:
+
+E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Open_drain\Debug\Obj: [1]
+    Ex_05_GPIO_Output_Open_drain.o       70        8        8
+    ---------------------------------------------------------
+    Total:                               70        8        8
+
+dl7M_tln.a: [2]
+    exit.o                                4
+    low_level_init.o                      4
+    ---------------------------------------------------------
+    Total:                                8
+
+rt7M_tl.a: [3]
+    cexit.o                              10
+    cmain.o                              30
+    copy_init3.o                         46
+    cstartup_M.o                         28
+    data_init.o                          40
+    vector_table_M.o                     66
+    ---------------------------------------------------------
+    Total:                              220
+
+shb_l.a: [4]
+    exit.o                               20
+    ---------------------------------------------------------
+    Total:                               20
+
+    Gaps                                  2
+    Linker created                                20    4'096
+-------------------------------------------------------------
+    Grand Total:                        320       28    4'104
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'00dc         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'00f0         --   Gb  - Linker created -
+?main                    0x800'00f1        Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1008         --   Gb  - Linker created -
+Delay                    0x800'007d   0xa  Code  Gb  Ex_05_GPIO_Output_Open_drain.o [1]
+GPIOF                   0x2000'0000   0x4  Data  Gb  Ex_05_GPIO_Output_Open_drain.o [1]
+RCC                     0x2000'0004   0x4  Data  Gb  Ex_05_GPIO_Output_Open_drain.o [1]
+Region$$Table$$Base      0x800'00dc         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'00f0         --   Gb  - Linker created -
+__cmain                  0x800'00f1        Code  Gb  cmain.o [3]
+__exit                   0x800'0125  0x14  Code  Gb  exit.o [4]
+__iar_copy_init3         0x800'0087  0x2e  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'00b5  0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'0139        Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'010f   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  vector_table_M.o [3]
+_call_main               0x800'00fd        Code  Gb  cmain.o [3]
+_exit                    0x800'0119        Code  Gb  cexit.o [3]
+_main                    0x800'0107        Code  Gb  cmain.o [3]
+exit                     0x800'0113   0x4  Code  Gb  exit.o [2]
+main                     0x800'0041  0x32  Code  Gb  Ex_05_GPIO_Output_Open_drain.o [1]
+
+
+[1] = E:\ARM\STM32_Examples\Ex_05_GPIO_Output_Open_drain\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    320 bytes of readonly  code memory
+     28 bytes of readonly  data memory
+  4'104 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
