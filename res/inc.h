@@ -1,6 +1,7 @@
 #ifndef _INC_H
 #define _INC_H
 
+#include "typedef.h"
 #include "adc.h"
 #include "afio.h"
 #include "exti.h"
@@ -10,6 +11,5 @@
 #include "tim.h"
 #include "usart.h"
 #include "printf.c"
-#include "typedef.h"
 
 #endif

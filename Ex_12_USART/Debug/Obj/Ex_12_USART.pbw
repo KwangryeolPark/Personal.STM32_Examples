@@ -6076,13 +6076,27 @@
     "scope": null
   },
   {
+    "ID": "c:printf.c@92@macro@EOF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EOF",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "E:\\ARM\\res\\stdio\\printf.c"
+    },
+    "name": "EOF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@putc",
     "What": "Function",
     "defdec": "Def",
     "display": "uint8_t putc(volatile struct _USART *, uint8_t)",
     "location": {
       "column": "9",
-      "line": "7",
+      "line": "9",
       "path": "E:\\ARM\\res\\stdio\\printf.c"
     },
     "name": "putc",
@@ -6096,7 +6110,7 @@
     "display": "uint8_t getc(volatile struct _USART *)",
     "location": {
       "column": "9",
-      "line": "23",
+      "line": "25",
       "path": "E:\\ARM\\res\\stdio\\printf.c"
     },
     "name": "getc",
@@ -6104,13 +6118,41 @@
     "scope": null
   },
   {
-    "ID": "c:printf.c@631@F@getc@c",
+    "ID": "c:printf.c@650@F@getc@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "13",
-      "line": "26",
+      "line": "28",
+      "path": "E:\\ARM\\res\\stdio\\printf.c"
+    },
+    "name": "c",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getc_nb",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t getc_nb(volatile struct _USART *)",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "E:\\ARM\\res\\stdio\\printf.c"
+    },
+    "name": "getc_nb",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:printf.c@776@F@getc_nb@c",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "c",
+    "location": {
+      "column": "10",
+      "line": "35",
       "path": "E:\\ARM\\res\\stdio\\printf.c"
     },
     "name": "c",
