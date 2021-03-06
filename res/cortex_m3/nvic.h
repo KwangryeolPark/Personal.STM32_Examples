@@ -3,7 +3,7 @@
 
 #include "typedef.h"
 
-#define NVIC_ICTR	*(volatile uint32_t *) 0xE000E104
+#define NVIC_ICTR	*(volatile uint32_t *) 0xE000E004
 #define NVIC_SCSR       *(volatile uint32_t *) 0xE000E010
 #define NVIC_SRVR       *(volatile uint32_t *) 0xE000E014
 #define NVIC_SCVR       *(volatile uint32_t *) 0xE000E018

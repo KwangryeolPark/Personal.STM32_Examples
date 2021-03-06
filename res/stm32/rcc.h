@@ -14,6 +14,8 @@ struct _RCC {
   uint32_t        APB1ENR;
   uint32_t        BDCR;
   uint32_t        CSR;
+  uint32_t        AHBSTR;
+  uint32_t        CFGR2;
 };
 
 volatile struct _RCC *RCC = (struct _RCC*) 0x40021000;
@@ -85,6 +87,14 @@ volatile struct _RCC *RCC = (struct _RCC*) 0x40021000;
 #define TIM4EN 2
 #define TIM3EN 1
 #define TIM2EN 0
+  
+#define I2S3SRC 18
+#define I2S2SRC 17
+#define PREDIV1SRC      16
+#define PLL3MUL 12
+#define PLL2MUL 8
+#define PREDIV2 4
+#define PREDIV1 0
 
 
 #endif

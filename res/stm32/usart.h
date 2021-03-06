@@ -41,7 +41,7 @@ volatile struct _USART *UART5 = (struct _USART*) 0x40005000;
 #define LBD     8
 #define TXE     7
 #define TC      6
-#define RXNE    5
+#define RXEN    5
 #define IDLE    4
 #define ORE     3
 #define NE      2
@@ -96,6 +96,6 @@ volatile struct _USART *UART5 = (struct _USART*) 0x40005000;
 
 // GTPR 823 page
 #define GT      8
-#define PSC     0
+#define USART_PSC     0
 
 #endif

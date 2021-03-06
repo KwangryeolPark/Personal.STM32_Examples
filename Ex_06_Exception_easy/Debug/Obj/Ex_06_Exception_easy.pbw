@@ -2965,6 +2965,34 @@
         "name": "CSR",
         "origin": "user_include",
         "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@AHBSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBSTR",
+        "location": {
+          "column": "19",
+          "line": "17",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "AHBSTR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@CFGR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR2",
+        "location": {
+          "column": "19",
+          "line": "18",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "CFGR2",
+        "origin": "user_include",
+        "scope": "_RCC"
       }
     ],
     "name": "_RCC",
@@ -2978,7 +3006,7 @@
     "display": "RCC",
     "location": {
       "column": "23",
-      "line": "19",
+      "line": "21",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "RCC",
@@ -2986,13 +3014,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@499@macro@TIM11EN",
+    "ID": "c:rcc.h@552@macro@TIM11EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM11EN",
     "location": {
       "column": "9",
-      "line": "23",
+      "line": "25",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM11EN",
@@ -3000,13 +3028,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@519@macro@TIM10EN",
+    "ID": "c:rcc.h@572@macro@TIM10EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM10EN",
     "location": {
       "column": "9",
-      "line": "24",
+      "line": "26",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM10EN",
@@ -3014,13 +3042,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@539@macro@TIM9EN",
+    "ID": "c:rcc.h@592@macro@TIM9EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM9EN",
     "location": {
       "column": "9",
-      "line": "25",
+      "line": "27",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM9EN",
@@ -3028,13 +3056,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@559@macro@ADC3EN",
+    "ID": "c:rcc.h@612@macro@ADC3EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ADC3EN",
     "location": {
       "column": "9",
-      "line": "26",
+      "line": "28",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "ADC3EN",
@@ -3042,13 +3070,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@579@macro@USART1EN",
+    "ID": "c:rcc.h@632@macro@USART1EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "USART1EN",
     "location": {
       "column": "9",
-      "line": "27",
+      "line": "29",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "USART1EN",
@@ -3056,13 +3084,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@607@macro@TIM8EN",
+    "ID": "c:rcc.h@660@macro@TIM8EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM8EN",
     "location": {
       "column": "9",
-      "line": "28",
+      "line": "30",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM8EN",
@@ -3070,13 +3098,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@627@macro@SPI1EN",
+    "ID": "c:rcc.h@680@macro@SPI1EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SPI1EN",
     "location": {
       "column": "9",
-      "line": "29",
+      "line": "31",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "SPI1EN",
@@ -3084,13 +3112,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@647@macro@TIM1EN",
+    "ID": "c:rcc.h@700@macro@TIM1EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM1EN",
     "location": {
       "column": "9",
-      "line": "30",
+      "line": "32",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM1EN",
@@ -3098,13 +3126,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@667@macro@ADC2EN",
+    "ID": "c:rcc.h@720@macro@ADC2EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ADC2EN",
     "location": {
       "column": "9",
-      "line": "31",
+      "line": "33",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "ADC2EN",
@@ -3112,13 +3140,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@687@macro@ADC1EN",
+    "ID": "c:rcc.h@740@macro@ADC1EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ADC1EN",
     "location": {
       "column": "9",
-      "line": "32",
+      "line": "34",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "ADC1EN",
@@ -3126,13 +3154,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@706@macro@IOPGEN",
+    "ID": "c:rcc.h@759@macro@IOPGEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IOPGEN",
     "location": {
       "column": "9",
-      "line": "33",
+      "line": "35",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "IOPGEN",
@@ -3140,13 +3168,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@725@macro@IOPFEN",
+    "ID": "c:rcc.h@778@macro@IOPFEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IOPFEN",
     "location": {
       "column": "9",
-      "line": "34",
+      "line": "36",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "IOPFEN",
@@ -3154,13 +3182,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@744@macro@IOPEEN",
+    "ID": "c:rcc.h@797@macro@IOPEEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IOPEEN",
     "location": {
       "column": "9",
-      "line": "35",
+      "line": "37",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "IOPEEN",
@@ -3168,13 +3196,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@763@macro@IOPDEN",
+    "ID": "c:rcc.h@816@macro@IOPDEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IOPDEN",
     "location": {
       "column": "9",
-      "line": "36",
+      "line": "38",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "IOPDEN",
@@ -3182,13 +3210,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@782@macro@IOPCEN",
+    "ID": "c:rcc.h@835@macro@IOPCEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IOPCEN",
     "location": {
       "column": "9",
-      "line": "37",
+      "line": "39",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "IOPCEN",
@@ -3196,13 +3224,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@801@macro@IOPBEN",
+    "ID": "c:rcc.h@854@macro@IOPBEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IOPBEN",
     "location": {
       "column": "9",
-      "line": "38",
+      "line": "40",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "IOPBEN",
@@ -3210,13 +3238,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@820@macro@IOPAEN",
+    "ID": "c:rcc.h@873@macro@IOPAEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "IOPAEN",
     "location": {
       "column": "9",
-      "line": "39",
+      "line": "41",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "IOPAEN",
@@ -3224,13 +3252,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@839@macro@AFIOEN",
+    "ID": "c:rcc.h@892@macro@AFIOEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "AFIOEN",
     "location": {
       "column": "9",
-      "line": "40",
+      "line": "42",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "AFIOEN",
@@ -3238,13 +3266,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@860@macro@MCO",
+    "ID": "c:rcc.h@913@macro@MCO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MCO",
     "location": {
       "column": "9",
-      "line": "42",
+      "line": "44",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "MCO",
@@ -3252,13 +3280,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@880@macro@USBPRE",
+    "ID": "c:rcc.h@933@macro@USBPRE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "USBPRE",
     "location": {
       "column": "9",
-      "line": "43",
+      "line": "45",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "USBPRE",
@@ -3266,13 +3294,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@900@macro@PLLMUL",
+    "ID": "c:rcc.h@953@macro@PLLMUL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PLLMUL",
     "location": {
       "column": "9",
-      "line": "44",
+      "line": "46",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "PLLMUL",
@@ -3280,13 +3308,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@920@macro@PLLXTPRE",
+    "ID": "c:rcc.h@973@macro@PLLXTPRE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PLLXTPRE",
     "location": {
       "column": "9",
-      "line": "45",
+      "line": "47",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "PLLXTPRE",
@@ -3294,13 +3322,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@948@macro@PLLSRC",
+    "ID": "c:rcc.h@1001@macro@PLLSRC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PLLSRC",
     "location": {
       "column": "9",
-      "line": "46",
+      "line": "48",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "PLLSRC",
@@ -3308,13 +3336,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@968@macro@ADCPRE",
+    "ID": "c:rcc.h@1021@macro@ADCPRE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ADCPRE",
     "location": {
       "column": "9",
-      "line": "47",
+      "line": "49",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "ADCPRE",
@@ -3322,13 +3350,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@988@macro@PPRE2",
+    "ID": "c:rcc.h@1041@macro@PPRE2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PPRE2",
     "location": {
       "column": "9",
-      "line": "48",
+      "line": "50",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "PPRE2",
@@ -3336,13 +3364,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1008@macro@PPRE1",
+    "ID": "c:rcc.h@1061@macro@PPRE1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PPRE1",
     "location": {
       "column": "9",
-      "line": "49",
+      "line": "51",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "PPRE1",
@@ -3350,13 +3378,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1027@macro@HPRE",
+    "ID": "c:rcc.h@1080@macro@HPRE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HPRE",
     "location": {
       "column": "9",
-      "line": "50",
+      "line": "52",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "HPRE",
@@ -3364,13 +3392,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1046@macro@SWS",
+    "ID": "c:rcc.h@1099@macro@SWS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SWS",
     "location": {
       "column": "9",
-      "line": "51",
+      "line": "53",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "SWS",
@@ -3378,13 +3406,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1065@macro@SW",
+    "ID": "c:rcc.h@1118@macro@SW",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SW",
     "location": {
       "column": "9",
-      "line": "52",
+      "line": "54",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "SW",
@@ -3392,13 +3420,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1086@macro@PLLRDY",
+    "ID": "c:rcc.h@1139@macro@PLLRDY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PLLRDY",
     "location": {
       "column": "9",
-      "line": "54",
+      "line": "56",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "PLLRDY",
@@ -3406,13 +3434,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1106@macro@PLLON",
+    "ID": "c:rcc.h@1159@macro@PLLON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PLLON",
     "location": {
       "column": "9",
-      "line": "55",
+      "line": "57",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "PLLON",
@@ -3420,13 +3448,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1126@macro@CSSON",
+    "ID": "c:rcc.h@1179@macro@CSSON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CSSON",
     "location": {
       "column": "9",
-      "line": "56",
+      "line": "58",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "CSSON",
@@ -3434,13 +3462,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1146@macro@HSEBYP",
+    "ID": "c:rcc.h@1199@macro@HSEBYP",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSEBYP",
     "location": {
       "column": "9",
-      "line": "57",
+      "line": "59",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "HSEBYP",
@@ -3448,13 +3476,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1166@macro@HSERDY",
+    "ID": "c:rcc.h@1219@macro@HSERDY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSERDY",
     "location": {
       "column": "9",
-      "line": "58",
+      "line": "60",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "HSERDY",
@@ -3462,13 +3490,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1186@macro@HSEON",
+    "ID": "c:rcc.h@1239@macro@HSEON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSEON",
     "location": {
       "column": "9",
-      "line": "59",
+      "line": "61",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "HSEON",
@@ -3476,13 +3504,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1206@macro@HSICAL",
+    "ID": "c:rcc.h@1259@macro@HSICAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSICAL",
     "location": {
       "column": "9",
-      "line": "60",
+      "line": "62",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "HSICAL",
@@ -3490,13 +3518,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1225@macro@HSITRIM",
+    "ID": "c:rcc.h@1278@macro@HSITRIM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSITRIM",
     "location": {
       "column": "9",
-      "line": "61",
+      "line": "63",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "HSITRIM",
@@ -3504,13 +3532,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1244@macro@HSIRDY",
+    "ID": "c:rcc.h@1297@macro@HSIRDY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSIRDY",
     "location": {
       "column": "9",
-      "line": "62",
+      "line": "64",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "HSIRDY",
@@ -3518,13 +3546,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1263@macro@HSION",
+    "ID": "c:rcc.h@1316@macro@HSION",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HSION",
     "location": {
       "column": "9",
-      "line": "63",
+      "line": "65",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "HSION",
@@ -3532,13 +3560,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1284@macro@DACEN",
+    "ID": "c:rcc.h@1337@macro@DACEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DACEN",
     "location": {
       "column": "9",
-      "line": "65",
+      "line": "67",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "DACEN",
@@ -3546,13 +3574,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1304@macro@PWREN",
+    "ID": "c:rcc.h@1357@macro@PWREN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PWREN",
     "location": {
       "column": "9",
-      "line": "66",
+      "line": "68",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "PWREN",
@@ -3560,13 +3588,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1324@macro@BKPEN",
+    "ID": "c:rcc.h@1377@macro@BKPEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BKPEN",
     "location": {
       "column": "9",
-      "line": "67",
+      "line": "69",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "BKPEN",
@@ -3574,13 +3602,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1344@macro@CANEN",
+    "ID": "c:rcc.h@1397@macro@CANEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CANEN",
     "location": {
       "column": "9",
-      "line": "68",
+      "line": "70",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "CANEN",
@@ -3588,13 +3616,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1364@macro@USBEN",
+    "ID": "c:rcc.h@1417@macro@USBEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "USBEN",
     "location": {
       "column": "9",
-      "line": "69",
+      "line": "71",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "USBEN",
@@ -3602,13 +3630,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1384@macro@I2C2EN",
+    "ID": "c:rcc.h@1437@macro@I2C2EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "I2C2EN",
     "location": {
       "column": "9",
-      "line": "70",
+      "line": "72",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "I2C2EN",
@@ -3616,13 +3644,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1404@macro@I2C1EN",
+    "ID": "c:rcc.h@1457@macro@I2C1EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "I2C1EN",
     "location": {
       "column": "9",
-      "line": "71",
+      "line": "73",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "I2C1EN",
@@ -3630,13 +3658,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1424@macro@UART5EN",
+    "ID": "c:rcc.h@1477@macro@UART5EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART5EN",
     "location": {
       "column": "9",
-      "line": "72",
+      "line": "74",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "UART5EN",
@@ -3644,13 +3672,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1444@macro@UART4EN",
+    "ID": "c:rcc.h@1497@macro@UART4EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART4EN",
     "location": {
       "column": "9",
-      "line": "73",
+      "line": "75",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "UART4EN",
@@ -3658,13 +3686,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1464@macro@USART3EN",
+    "ID": "c:rcc.h@1517@macro@USART3EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "USART3EN",
     "location": {
       "column": "9",
-      "line": "74",
+      "line": "76",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "USART3EN",
@@ -3672,13 +3700,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1492@macro@USART2EN",
+    "ID": "c:rcc.h@1545@macro@USART2EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "USART2EN",
     "location": {
       "column": "9",
-      "line": "75",
+      "line": "77",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "USART2EN",
@@ -3686,13 +3714,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1520@macro@SPI3EN",
+    "ID": "c:rcc.h@1573@macro@SPI3EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SPI3EN",
     "location": {
       "column": "9",
-      "line": "76",
+      "line": "78",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "SPI3EN",
@@ -3700,13 +3728,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1540@macro@SPI2EN",
+    "ID": "c:rcc.h@1593@macro@SPI2EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SPI2EN",
     "location": {
       "column": "9",
-      "line": "77",
+      "line": "79",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "SPI2EN",
@@ -3714,13 +3742,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1560@macro@WWDGEN",
+    "ID": "c:rcc.h@1613@macro@WWDGEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WWDGEN",
     "location": {
       "column": "9",
-      "line": "78",
+      "line": "80",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "WWDGEN",
@@ -3728,13 +3756,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1580@macro@TIM14EN",
+    "ID": "c:rcc.h@1633@macro@TIM14EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM14EN",
     "location": {
       "column": "9",
-      "line": "79",
+      "line": "81",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM14EN",
@@ -3742,13 +3770,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1599@macro@TIM13EN",
+    "ID": "c:rcc.h@1652@macro@TIM13EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM13EN",
     "location": {
       "column": "9",
-      "line": "80",
+      "line": "82",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM13EN",
@@ -3756,13 +3784,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1618@macro@TIM12EN",
+    "ID": "c:rcc.h@1671@macro@TIM12EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM12EN",
     "location": {
       "column": "9",
-      "line": "81",
+      "line": "83",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM12EN",
@@ -3770,13 +3798,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1637@macro@TIM7EN",
+    "ID": "c:rcc.h@1690@macro@TIM7EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM7EN",
     "location": {
       "column": "9",
-      "line": "82",
+      "line": "84",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM7EN",
@@ -3784,13 +3812,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1655@macro@TIM6EN",
+    "ID": "c:rcc.h@1708@macro@TIM6EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM6EN",
     "location": {
       "column": "9",
-      "line": "83",
+      "line": "85",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM6EN",
@@ -3798,13 +3826,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1673@macro@TIM5EN",
+    "ID": "c:rcc.h@1726@macro@TIM5EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM5EN",
     "location": {
       "column": "9",
-      "line": "84",
+      "line": "86",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM5EN",
@@ -3812,13 +3840,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1691@macro@TIM4EN",
+    "ID": "c:rcc.h@1744@macro@TIM4EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM4EN",
     "location": {
       "column": "9",
-      "line": "85",
+      "line": "87",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM4EN",
@@ -3826,13 +3854,13 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1709@macro@TIM3EN",
+    "ID": "c:rcc.h@1762@macro@TIM3EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM3EN",
     "location": {
       "column": "9",
-      "line": "86",
+      "line": "88",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM3EN",
@@ -3840,16 +3868,114 @@
     "scope": null
   },
   {
-    "ID": "c:rcc.h@1727@macro@TIM2EN",
+    "ID": "c:rcc.h@1780@macro@TIM2EN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM2EN",
     "location": {
       "column": "9",
-      "line": "87",
+      "line": "89",
       "path": "E:\\ARM\\res\\stm32\\rcc.h"
     },
     "name": "TIM2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1802@macro@I2S3SRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2S3SRC",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "I2S3SRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1822@macro@I2S2SRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2S2SRC",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "I2S2SRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1842@macro@PREDIV1SRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PREDIV1SRC",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PREDIV1SRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1870@macro@PLL3MUL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLL3MUL",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLL3MUL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1890@macro@PLL2MUL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLL2MUL",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLL2MUL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1909@macro@PREDIV2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PREDIV2",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PREDIV2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1928@macro@PREDIV1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PREDIV1",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PREDIV1",
     "origin": "user_include",
     "scope": null
   },
@@ -4712,6 +4838,148 @@
     "scope": null
   },
   {
+    "ID": "c:afio.h@25@macro@_AFIO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_AFIO_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stm32\\afio.h"
+    },
+    "name": "_AFIO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@_AFIO",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "_AFIO",
+    "location": {
+      "column": "8",
+      "line": "6",
+      "path": "E:\\ARM\\res\\stm32\\afio.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_AFIO@FI@EVCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EVCR",
+        "location": {
+          "column": "19",
+          "line": "7",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EVCR",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@MAPR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "MAPR",
+        "location": {
+          "column": "19",
+          "line": "8",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "MAPR",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@EXTICR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EXTICR1",
+        "location": {
+          "column": "19",
+          "line": "9",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EXTICR1",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@EXTICR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EXTICR2",
+        "location": {
+          "column": "19",
+          "line": "10",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EXTICR2",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@EXTICR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EXTICR3",
+        "location": {
+          "column": "19",
+          "line": "11",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EXTICR3",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@EXTICR4",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EXTICR4",
+        "location": {
+          "column": "19",
+          "line": "12",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EXTICR4",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@MAPR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "MAPR2",
+        "location": {
+          "column": "19",
+          "line": "13",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "MAPR2",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      }
+    ],
+    "name": "_AFIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@AFIO",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "AFIO",
+    "location": {
+      "column": "24",
+      "line": "16",
+      "path": "E:\\ARM\\res\\stm32\\afio.h"
+    },
+    "name": "AFIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:typedef.h@28@macro@_TYPEDEF_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -4862,148 +5130,6 @@
       "path": "E:\\ARM\\res\\typedef.h"
     },
     "name": "false",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:afio.h@25@macro@_AFIO_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_AFIO_H",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "E:\\ARM\\res\\stm32\\afio.h"
-    },
-    "name": "_AFIO_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@S@_AFIO",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "_AFIO",
-    "location": {
-      "column": "8",
-      "line": "6",
-      "path": "E:\\ARM\\res\\stm32\\afio.h"
-    },
-    "members": [
-      {
-        "ID": "c:@S@_AFIO@FI@EVCR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "EVCR",
-        "location": {
-          "column": "19",
-          "line": "7",
-          "path": "E:\\ARM\\res\\stm32\\afio.h"
-        },
-        "name": "EVCR",
-        "origin": "user_include",
-        "scope": "_AFIO"
-      },
-      {
-        "ID": "c:@S@_AFIO@FI@MAPR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "MAPR",
-        "location": {
-          "column": "19",
-          "line": "8",
-          "path": "E:\\ARM\\res\\stm32\\afio.h"
-        },
-        "name": "MAPR",
-        "origin": "user_include",
-        "scope": "_AFIO"
-      },
-      {
-        "ID": "c:@S@_AFIO@FI@EXTICR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "EXTICR1",
-        "location": {
-          "column": "19",
-          "line": "9",
-          "path": "E:\\ARM\\res\\stm32\\afio.h"
-        },
-        "name": "EXTICR1",
-        "origin": "user_include",
-        "scope": "_AFIO"
-      },
-      {
-        "ID": "c:@S@_AFIO@FI@EXTICR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "EXTICR2",
-        "location": {
-          "column": "19",
-          "line": "10",
-          "path": "E:\\ARM\\res\\stm32\\afio.h"
-        },
-        "name": "EXTICR2",
-        "origin": "user_include",
-        "scope": "_AFIO"
-      },
-      {
-        "ID": "c:@S@_AFIO@FI@EXTICR3",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "EXTICR3",
-        "location": {
-          "column": "19",
-          "line": "11",
-          "path": "E:\\ARM\\res\\stm32\\afio.h"
-        },
-        "name": "EXTICR3",
-        "origin": "user_include",
-        "scope": "_AFIO"
-      },
-      {
-        "ID": "c:@S@_AFIO@FI@EXTICR4",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "EXTICR4",
-        "location": {
-          "column": "19",
-          "line": "12",
-          "path": "E:\\ARM\\res\\stm32\\afio.h"
-        },
-        "name": "EXTICR4",
-        "origin": "user_include",
-        "scope": "_AFIO"
-      },
-      {
-        "ID": "c:@S@_AFIO@FI@MAPR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "MAPR2",
-        "location": {
-          "column": "19",
-          "line": "13",
-          "path": "E:\\ARM\\res\\stm32\\afio.h"
-        },
-        "name": "MAPR2",
-        "origin": "user_include",
-        "scope": "_AFIO"
-      }
-    ],
-    "name": "_AFIO",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@AFIO",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "AFIO",
-    "location": {
-      "column": "24",
-      "line": "16",
-      "path": "E:\\ARM\\res\\stm32\\afio.h"
-    },
-    "name": "AFIO",
     "origin": "user_include",
     "scope": null
   },
@@ -5404,16 +5530,16 @@
     "scope": null
   },
   {
-    "ID": "c:usart.h@1408@macro@RXNE",
+    "ID": "c:usart.h@1408@macro@RXEN",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "RXNE",
+    "display": "RXEN",
     "location": {
       "column": "9",
       "line": "44",
       "path": "E:\\ARM\\res\\stm32\\usart.h"
     },
-    "name": "RXNE",
+    "name": "RXEN",
     "origin": "user_include",
     "scope": null
   },
@@ -6006,16 +6132,16 @@
     "scope": null
   },
   {
-    "ID": "c:usart.h@2368@macro@PSC",
+    "ID": "c:usart.h@2368@macro@USART_PSC",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "PSC",
+    "display": "USART_PSC",
     "location": {
       "column": "9",
       "line": "99",
       "path": "E:\\ARM\\res\\stm32\\usart.h"
     },
-    "name": "PSC",
+    "name": "USART_PSC",
     "origin": "user_include",
     "scope": null
   },

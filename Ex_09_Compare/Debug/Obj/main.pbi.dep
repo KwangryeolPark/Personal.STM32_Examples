@@ -1,0 +1,12 @@
+main.pbi: E:\ARM\STM32_Examples\res\stdio\print.h \
+  E:\ARM\STM32_Examples\res\stdio\print.c \
+  E:\ARM\STM32_Examples\res\stm32\usart.h \
+  E:\ARM\STM32_Examples\res\stm32\tim.h \
+  E:\ARM\STM32_Examples\res\stm32\rcc.h \
+  E:\ARM\STM32_Examples\res\cortex_m3\nvic.h \
+  E:\ARM\STM32_Examples\res\stm32\gpio.h \
+  E:\ARM\STM32_Examples\res\stm32\exti.h \
+  E:\ARM\STM32_Examples\res\stm32\afio.h \
+  E:\ARM\STM32_Examples\res\stm32\adc.h \
+  E:\ARM\STM32_Examples\res\typedef.h E:\ARM\STM32_Examples\res\inc.h \
+  E:\ARM\STM32_Examples\Ex_09_Compare\main.c

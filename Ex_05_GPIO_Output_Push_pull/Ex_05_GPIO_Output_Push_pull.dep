@@ -5,29 +5,29 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\List\Ex_05_GPIO_Output_Push_pull.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output_Push_pull.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output_Push_pull.pbd</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output_Push_pull.hex</file>
-            <file>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output_Push_pull.out</file>
-            <file>$PROJ_DIR$\..\..\res\stm32\gpio.h</file>
-            <file>$PROJ_DIR$\Ex_05_GPIO_Output_Push_pull.c</file>
-            <file>$PROJ_DIR$\..\..\res\typedef.h</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output_Push_pull.xcl</file>
-            <file>$PROJ_DIR$\..\..\res\stm32\rcc.h</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103xE.icf</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output_Push_pull.out</file>
             <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output_Push_pull.o</file>
+            <file>$PROJ_DIR$\Debug\List\Ex_05_GPIO_Output_Push_pull.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output_Push_pull.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\..\res\typedef.h</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Ex_05_GPIO_Output_Push_pull.c</file>
+            <file>$PROJ_DIR$\..\..\res\stm32\rcc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Ex_05_GPIO_Output_Push_pull.xcl</file>
+            <file>$PROJ_DIR$\..\..\res\stm32\gpio.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Exe\Ex_05_GPIO_Output_Push_pull.hex</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 0 5</file>
+                    <file> 5 3</file>
                 </tool>
             </outputs>
         </file>
@@ -36,17 +36,17 @@
             <outputs>
                 <tool>
                     <name>OBJCOPY</name>
-                    <file> 4</file>
+                    <file> 15</file>
                 </tool>
                 <tool>
                     <name>ILINK</name>
-                    <file> 0</file>
+                    <file> 5</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 12 14 9 13 15 3</file>
+                    <file> 2 4 7 14 9 1</file>
                 </tool>
             </inputs>
         </file>
@@ -55,21 +55,21 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 14</file>
+                    <file> 4</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 10</file>
+                    <file> 12</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 1</file>
+                    <file> 6</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 6 8 11</file>
+                    <file> 13 8 11</file>
                 </tool>
             </inputs>
         </file>
