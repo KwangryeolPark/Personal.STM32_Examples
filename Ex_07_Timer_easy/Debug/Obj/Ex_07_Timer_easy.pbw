@@ -6146,13 +6146,69 @@
     "scope": null
   },
   {
+    "ID": "c:@F@initRCC",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void initRCC(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "initRCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@initTIM2",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void initTIM2(void)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "initTIM2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@initLED",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void initLED(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "initLED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@enableTIM2",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void enableTIM2(void)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "enableTIM2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@TIM2_IRQHandler",
     "What": "Function",
     "defdec": "Def",
     "display": "void TIM2_IRQHandler(void)",
     "location": {
       "column": "6",
-      "line": "18",
+      "line": "24",
       "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
     },
     "name": "TIM2_IRQHandler",
@@ -6166,10 +6222,66 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "23",
+      "line": "29",
       "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@initRCC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void initRCC(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "initRCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@initTIM2",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void initTIM2(void)",
+    "location": {
+      "column": "6",
+      "line": "55",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "initTIM2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@initLED",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void initLED(void)",
+    "location": {
+      "column": "6",
+      "line": "67",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "initLED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@enableTIM2",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void enableTIM2(void)",
+    "location": {
+      "column": "6",
+      "line": "72",
+      "path": "E:\\ARM\\STM32_Examples\\Ex_07_Timer_easy\\Ex_07_Timer_easy.c"
+    },
+    "name": "enableTIM2",
     "origin": "project_file",
     "scope": null
   }
